@@ -1,0 +1,14 @@
+1. Create a Spring Boot Project (https://start.spring.io/)
+
+2. Create a Model Class
+    Create a class to represent your data model. For example, if you are creating a CRUD for a "Product," you might create a class
+3.Create a Repository Interface
+    Create a repository interface that extends MongoRepository to perform CRUD operations on your model.
+4. Create a Service
+    Create a service class that uses the repository for CRUD operations.
+5. Create a Controller
+    Create a controller class to handle HTTP requests.
+6. Configure MongoDB
+    Add MongoDB configuration in your `application.properties` file.
+7. Run Your Application
+    
